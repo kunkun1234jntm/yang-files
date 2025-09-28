@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"Scene","#\t场景配置表\t\t\t\r\n#\tId\t\tAssetName\tBackgroundMusicId\r\n#\tint\t\tstring\tint\r\n#\t场景编号\t备注\t资源名称\t背景音乐编号\r\n\t1\t菜单场景\tMenu\t1\r\n\t2\t战斗场景\tMain\t2"]],0,0,[],[],[]]

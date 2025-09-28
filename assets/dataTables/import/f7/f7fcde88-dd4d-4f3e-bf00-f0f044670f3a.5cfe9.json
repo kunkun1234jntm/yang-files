@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"Music","#\t音乐配置表\t\t\r\n#\tId\t\tAssetName\r\n#\tint\t\tstring\r\n#\t音乐编号\t策划备注\t资源名称\r\n\t1\t菜单音乐\tmusic_menu\r\n\t2\t战斗音乐\tmusic_background\r\n\t3\t关于音乐\tmusic_about"]],0,0,[],[],[]]
