@@ -2,10 +2,10 @@ window.boot = function () {
     var settings = window._CCSettings;
     window._CCSettings = undefined;
     var onProgress = null;
-    
-    var RESOURCES = cc.AssetManager.BuiltinBundleName.RESOURCES;
-    var INTERNAL = cc.AssetManager.BuiltinBundleName.INTERNAL;
-    var MAIN = cc.AssetManager.BuiltinBundleName.MAIN;
+    var h = "https://fastly.jsdelivr.net/gh/kunkun1234jntm/yang-files@master/assets/";
+    var RESOURCES = h + cc.AssetManager.BuiltinBundleName.RESOURCES;
+    var INTERNAL = h + cc.AssetManager.BuiltinBundleName.INTERNAL;
+    var MAIN = h + cc.AssetManager.BuiltinBundleName.MAIN;
     function setLoadingDisplay () {
         // Loading splash scene
         var splash = document.getElementById('splash');
