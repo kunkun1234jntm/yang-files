@@ -37029,10 +37029,9 @@ var e;
 console.log("FM_ gameLayer.gameNextFunc", this.levelDataArray);
 console.log("FM_ gameLayer.gameNextFunc", this.playLevelNum, this.levelDataArray.length - 1);
 if (this.playLevelNum < this.levelDataArray.length - 1) this.playNextLevelMap(); else {
-console.log("FM_ gameLayer.gameNextFunc", "提示没有下一关");
-cc.game.emit("showMainTips", w.default.instance.trans(N.GDLanguage.map_over)), b.default.getInstance().cookieDict.cookie += 12, 
-(e = l.default.getCookieRewardData()).cookieNum = b.default.getInstance().cookieDict.cookie, 
-l.default.setCookieRewardData(e);
+setTimeout(() => {
+   this.gameWinFunc();
+}, 500);
 }
 }, t.prototype.initLevelLayer = function(e) {
 console.log("FM_ gameLayer.initLevelLayer");
